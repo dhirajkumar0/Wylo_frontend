@@ -1,0 +1,58 @@
+form{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+@media (max-width:576px){
+    form{
+        height: 200px;
+        gap: 10px;
+    }
+    form textarea{
+        width: 50px;
+        border: 2px solid grey;
+    }
+    form input {
+        border: 2px solid grey;
+    }
+}
+
+@media ((min-width:767px) and (max-width:992px)){
+    form{
+        gap: 10px;
+        width: 100%;
+    }
+    form textarea{
+        width: 50px;
+        border: 2px solid grey;
+    }
+    form input {
+        border: 2px solid grey;
+    }
+}
+
+form textarea{
+    height: 100px;
+    width: 100%;
+    border: 2px solid grey;
+}
+
+form input{
+    border: 2px solid grey;
+}
+
+.error-msg{
+    color: darkred;
+}
+
+.create-button{
+    background-color: aqua;
+  width: 100px;
+  height: 35px;  
+  border: none;
+  border-radius: 8px;
+}

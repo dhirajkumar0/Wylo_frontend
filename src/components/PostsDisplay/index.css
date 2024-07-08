@@ -1,0 +1,148 @@
+.create-post-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    margin: 0px;
+}
+
+.popup-content{
+  width: 35%;
+  border-radius: 20px;
+}
+
+@media (max-width:576px){
+  .popup-content{
+    width: 75%;
+    border-radius: 5px;
+  }
+  .create-post-content{
+    padding: 12px;
+    font-size: 10px;
+}
+.posts-main-container{
+  margin-top: 30px;
+}
+}
+
+@media ((min-width:767px) and (max-width:992px)){
+  .popup-content{
+    width: 70%;
+    border-radius: 5px;
+  }
+  .creating-container{
+    width: 80%;
+  }
+}
+
+.close-button{
+  align-self: flex-end;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+}
+
+.popup-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.posts-main-container{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  width: 100%;
+  padding: 20px;
+  margin-top: 80px;
+}
+.posts-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.all-posts{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.create-post-button{
+  background-color: aquamarine;
+  color: #000000;
+  border: none;
+  height: 30px;
+  border-radius: 8px;
+}
+
+.creating-container{
+  text-align: center;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  width: 100%;
+  height: 80vh;
+}
+.note-container{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.note-button{
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  background-color: aqua;
+  width: 100px;
+  height: 35px;  
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+}
+
+/* .modal {
+  font-size: 12px;
+}
+.modal > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.modal > .content {
+  width: 100%;
+  padding: 10px 5px;
+}
+.modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+} */
